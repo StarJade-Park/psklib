@@ -18,6 +18,34 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameDirectory.cpp" />
+    <ClCompile Include="GameDirectoryInfo.cpp" />
+    <ClCompile Include="GameFileIO.cpp" />
+    <ClCompile Include="GameIO.cpp" />
+    <ClCompile Include="GameKeyInput.cpp" />
+    <ClCompile Include="GamePath.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="WindowController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameDirectory.h" />
+    <ClInclude Include="GameDirectoryInfo.h" />
+    <ClInclude Include="GameFileIO.h" />
+    <ClInclude Include="GameFileSystem.h" />
+    <ClInclude Include="GameIO.h" />
+    <ClInclude Include="GameKeyInput.h" />
+    <ClInclude Include="GamePath.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="PivotDirection.h" />
+    <ClInclude Include="tags.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Well512Random.h" />
+    <ClInclude Include="WindowController.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5306137E-3BE1-4270-964A-FDA8A1A29A53}</ProjectGuid>
@@ -163,52 +191,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Debug.h" />
-    <ClInclude Include="GameCircle.h" />
-    <ClInclude Include="GameColor.h" />
-    <ClInclude Include="GameDirectory.h" />
-    <ClInclude Include="GameDirectoryInfo.h" />
-    <ClInclude Include="GameFileIO.h" />
-    <ClInclude Include="GameFileSystem.h" />
-    <ClInclude Include="GameIO.h" />
-    <ClInclude Include="GameKeyInput.h" />
-    <ClInclude Include="GamePath.h" />
-    <ClInclude Include="GamePos.h" />
-    <ClInclude Include="GameRectangle.h" />
-    <ClInclude Include="GameShape.h" />
-    <ClInclude Include="GameSize.h" />
-    <ClInclude Include="GameSound.h" />
-    <ClInclude Include="GameSoundClip.h" />
-    <ClInclude Include="GameSoundPlayer.h" />
-    <ClInclude Include="GameSoundSystem.h" />
-    <ClInclude Include="GameTime.h" />
-    <ClInclude Include="Geometry.h" />
-    <ClInclude Include="MapKey.h" />
-    <ClInclude Include="PivotDirection.h" />
-    <ClInclude Include="SoundDef.h" />
-    <ClInclude Include="tags.h" />
-    <ClInclude Include="Vector2D.h" />
-    <ClInclude Include="Well512Random.h" />
-    <ClInclude Include="WindowController.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GameCircle.cpp" />
-    <ClCompile Include="GameColor.cpp" />
-    <ClCompile Include="GameDirectory.cpp" />
-    <ClCompile Include="GameDirectoryInfo.cpp" />
-    <ClCompile Include="GameFileIO.cpp" />
-    <ClCompile Include="GameIO.cpp" />
-    <ClCompile Include="GameKeyInput.cpp" />
-    <ClCompile Include="GamePath.cpp" />
-    <ClCompile Include="GameRectangle.cpp" />
-    <ClCompile Include="GameSound.cpp" />
-    <ClCompile Include="GameSoundPlayer.cpp" />
-    <ClCompile Include="GameTime.cpp" />
-    <ClCompile Include="Geometry.cpp" />
-    <ClCompile Include="Vector2D.cpp" />
-    <ClCompile Include="WindowController.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
